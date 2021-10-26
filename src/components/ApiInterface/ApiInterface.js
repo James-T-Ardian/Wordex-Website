@@ -11,7 +11,7 @@ const InputBar = (prop) => {
         url: `https://wordsapiv1.p.rapidapi.com/words/${inputValue}/${prop.find}`,
         headers: {
             'x-rapidapi-host': 'wordsapiv1.p.rapidapi.com',
-            'x-rapidapi-key': '431e73a192mshbff3f86d258d896p1f264fjsn24fb037e3c5a'
+            'x-rapidapi-key': process.env.REACT_APP_API_KEY
         }
     }
 

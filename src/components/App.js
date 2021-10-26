@@ -3,6 +3,7 @@ import ApiInterface from './ApiInterface/ApiInterface'
 import Navbar from './Navbar/Navbar'
 import WebsiteTitle from './WebsiteTitle/WebsiteTitle'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import './General.css'
 
 // Basically the <body> 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
   
   return (
-    <div>
+    <div className = "App">
       <Router>
         <Navbar />
         <WebsiteTitle />

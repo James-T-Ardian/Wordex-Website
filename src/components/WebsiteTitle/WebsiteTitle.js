@@ -4,7 +4,7 @@ import './WebsiteTitle.css'
 const WebsiteTitle = () => {
     return (
         <div className="web-title">
-            Wordex
+           <span className="bottom-w">W</span>ord<span className="ex">ex</span>
         </div>
     )
 }

@@ -4,14 +4,15 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <div className="navbar">
             <ul>
-                <Link to="/synonyms">Synonyms</Link>
-                <Link to="/antonyms">Antonyms</Link>
-                <Link to="/rhymes">Rhymes</Link>
-                <Link to="/examples">Examples</Link>
+                <li className="logo">W</li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/synonyms">Synonyms</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/antonyms">Antonyms</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/rhymes">Rhymes</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/examples">Examples</Link></li>
             </ul>
-        </nav>
+        </div>
     )
 }
 

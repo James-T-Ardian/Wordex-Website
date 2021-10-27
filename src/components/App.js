@@ -2,6 +2,7 @@ import React from 'react'
 import ApiInterface from './ApiInterface/ApiInterface'
 import Navbar from './Navbar/Navbar'
 import WebsiteTitle from './WebsiteTitle/WebsiteTitle'
+import Home from './Home/Home'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './General.css'
 
@@ -15,6 +16,9 @@ const App = () => {
       <Navbar />
         <WebsiteTitle />
       <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
         <Route path="/synonyms">
           <ApiInterface find="synonyms"/>
         </Route>

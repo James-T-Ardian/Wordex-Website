@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <ul>
-                <li className="logo">W</li>
+                <li className="logo"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/">W</Link></li>
                 <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/synonyms">Synonyms</Link></li>
                 <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/antonyms">Antonyms</Link></li>
                 <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/rhymes">Rhymes</Link></li>

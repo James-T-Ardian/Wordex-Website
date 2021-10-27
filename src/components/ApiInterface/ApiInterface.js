@@ -42,9 +42,10 @@ const InputBar = (prop) => {
         <div className="interface-container">
             <div className="find-description">{prop.find[0].toUpperCase() + prop.find.slice(1)}</div>
             <div className="bar-button-container">
-                <input type="text" value={inputValue} onChange={handleInputChange}></input>
-                <button className="input-button" onClick={handleButtonClick} disabled={inputValue.length == 0}>Submit</button>
+                <input className="input-bar" type="text" value={inputValue} onChange={handleInputChange}></input>
+                <button className="input-button" onClick={handleButtonClick} disabled={inputValue.length == 0}>Enter</button>
             </div>
+            
             <ul>
                 {outputValue.map((output) => {
                     return <li key={output}> {output} </li>

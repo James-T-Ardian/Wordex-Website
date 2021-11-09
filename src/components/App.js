@@ -16,19 +16,19 @@ const App = () => {
       <Navbar />
         <WebsiteTitle />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Wordex-Website">
           <Home/>
         </Route>
-        <Route path="/synonyms">
+        <Route path="/Wordex-Website/synonyms">
           <ApiInterface find="synonyms"/>
         </Route>
-        <Route path="/antonyms">
+        <Route path="/Wordex-Website/antonyms">
           <ApiInterface find="antonyms"/>
         </Route>
-        <Route path="/rhymes">
+        <Route path="/Wordex-Website/rhymes">
           <ApiInterface find="rhymes"/>
         </Route>
-        <Route path="/examples">
+        <Route path="/Wordex-Website/examples">
           <ApiInterface find="examples"/>
         </Route>
       </Switch>

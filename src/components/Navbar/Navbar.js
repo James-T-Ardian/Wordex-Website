@@ -6,11 +6,11 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <ul>
-                <li className="logo"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/">W</Link></li>
-                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/synonyms">Synonyms</Link></li>
-                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/antonyms">Antonyms</Link></li>
-                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/rhymes">Rhymes</Link></li>
-                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/examples">Examples</Link></li>
+                <li className="logo"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/Wordex-Website">W</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/Wordex-Website/synonyms">Synonyms</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/Wordex-Website/antonyms">Antonyms</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/Wordex-Website/rhymes">Rhymes</Link></li>
+                <li className="links"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/Wordex-Website/examples">Examples</Link></li>
             </ul>
         </div>
     )
